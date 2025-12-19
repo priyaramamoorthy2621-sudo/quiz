@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #8A2BE2, #FF1493, #FF0000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background: white;
+    padding: 25px;
+    width: 420px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
